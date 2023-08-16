@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #3c948b;
+}
+
+.form {
+  width: 40%;
+}
+
+.searchBox {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: transparent;
+  text-align: center;
+  font-size: 15px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardImgContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 325px;
+  gap: 7px;
+}
+
+.cardShow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px solid #3c948b;
+  padding: 15px;
+}
+
+.cardDetail {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.nextIcon {
+  color: #fff;
+  font-size: 25px;
+}

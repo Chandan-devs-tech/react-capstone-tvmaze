@@ -21,3 +21,13 @@
   align-items: center;
   gap: 15px;
 }
+
+@media (max-width: 767px) {
+  .navHeading {
+    display: none;
+  }
+
+  .logo {
+    width: 35%;
+  }
+}

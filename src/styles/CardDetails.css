@@ -1,3 +1,96 @@
-* {
+.backBtn {
+  padding: 10px;
+  margin: 10px;
+  background-color: #3c948b;
+  font-size: 15px;
+  font-weight: 700;
   color: #fff;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.backIcon {
+  margin-right: 10px;
+}
+
+.detailsMainContainer {
+  width: 100%;
+}
+
+.detailsSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subCardImg {
+  width: 300px;
+}
+
+.detailsContainer {
+  width: 100%;
+}
+
+.detailTitle {
+  padding: 20px 150px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.detailInfo {
+  padding: 20px 150px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 25px;
+}
+
+.detailInfo .detailItem:nth-child(odd) {
+  background-color: #3c948b;
+  color: #fff;
+}
+
+.detailInfo .detailItem:nth-child(even) {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .detailsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailTitle {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-weight: 700;
+  }
+
+  .detailInfo {
+    padding: 0;
+  }
+
+  .genreInfo {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .detailTitle {
+    font-size: 30px;
+    font-weight: 700;
+  }
 }

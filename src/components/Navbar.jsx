@@ -6,7 +6,7 @@ import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" data-testid="nav">
       <img src={logo} alt="logo" className="logo" />
       <h1 className="navHeading">TVMaze Shows</h1>
       <div className="icons">

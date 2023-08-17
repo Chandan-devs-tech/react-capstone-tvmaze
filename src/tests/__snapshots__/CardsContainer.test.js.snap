@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsContainer test It checks that the component is changed 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="searchBar"
+  >
+    <form
+      className="form"
+    >
+      <input
+        className="searchBox"
+        onChange={[Function]}
+        placeholder="Search Shows and People"
+        type="search"
+      />
+      <div
+        className="small-4 columns"
+      >
+        <button
+          alt="Search"
+          className="medium button postfix"
+          type="submit"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-search fa-lg"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    className="cardContainer"
+  />
+</div>
+`;

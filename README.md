@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="/src/assets/RSn9.gif" alt="Animation" width="150">
+</p
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h1><b>TVMAZE Shows</b></h1>
+  <h1><b>📺 TVMAZE Shows</b></h1>
 
 </div>
 
@@ -63,7 +66,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://tvmaze-ia3b.onrender.com/)
+- [Video Presentation Link](https://www.loom.com/share/8bfb1bd5afc94001b571d073ee28288e?sid=aecf23a1-eec6-41f4-82b4-a87d9ae9d901)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,4 +163,4 @@ Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Chandan-devs-tech/react-capstone-tvmaze/blob/dev/Mit.md) licensed.
